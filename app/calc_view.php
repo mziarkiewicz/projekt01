@@ -32,7 +32,7 @@ if (isset($messages)) {
 
 <?php if (isset($result)){ ?>
 <div style="margin: 20px; padding: 10px; border-radius: 5px; background-color: #ffff67; width:300px;">
-<?php echo 'Wynik: '.number_format($result, 2,'.',''); ?>
+<?php echo 'Miesięczna rata będzie wynosić ok. : '.number_format($result, 2,'.',''); ?>
 </div>
 <?php } ?>
 

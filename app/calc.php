@@ -62,7 +62,7 @@ if (empty ( $messages )) { // gdy brak błędów
     $pct = doubleval($pct);
 	
 	//wykonanie operacji
-    $result = $amo + ($amo * $pct/100);
+    $result = ($amo / ($yr * 12)) * (1 + $pct/100) ;
 }
 
 // 4. Wywołanie widoku z przekazaniem zmiennych
